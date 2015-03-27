@@ -1,10 +1,10 @@
 
 ./vpn-charles.rb
-	When you run Charles after starting Juniper's SSL VPN client (Network Connect) it sets
-	the proxy settings, but onto your primary interface instead of the VPN interface. This
-	script copies the config entries over to the VPN interface. So you can start the VPN,
-	start charles, then run ./vpn-charles.rb --on and it will make Charles work. If you
-	shut Charles down, just run ./vpn-charles.rb --off to disable proxying.
+  When you run Charles after starting Juniper's SSL VPN client (Network Connect) it sets
+  the proxy settings, but onto your primary interface instead of the VPN interface. This
+  script copies the config entries over to the VPN interface. So you can start the VPN,
+  start charles, then run ./vpn-charles.rb --on and it will make Charles work. If you
+  shut Charles down, just run ./vpn-charles.rb --off to disable proxying.
 
 
 Charles: http://www.charlesproxy.com
